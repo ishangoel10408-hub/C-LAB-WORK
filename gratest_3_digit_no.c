@@ -7,10 +7,10 @@ int main()
     printf("Enter three numbers: ");
     scanf("%d%d%d",&a,&b,&c);
 
-    if(a>b && a>c)
+    if(a>=b && a>=c)
         printf("%d is largest",a);
 
-    else if(b>a && b>c)
+    else if(b>=a && b>=c)
         printf("%d is largest",b);
 
     else
