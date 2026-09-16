@@ -9,7 +9,7 @@ int main() {
     for(i = n; i >= pos; i--)
         a[i] = a[i - 1];
 
-    a[pos - 1] = x;
+    a[pos - 1] = x ;
     n++;
 
     for(i = 0; i < n; i++)
